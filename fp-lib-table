@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Sterownik_roletyLibrary")(type "KiCad")(uri "${KIPRJMOD}/Sterownik_roletyLibrary.pretty")(options "")(descr ""))
+)

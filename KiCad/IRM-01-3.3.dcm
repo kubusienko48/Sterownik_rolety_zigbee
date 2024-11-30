@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRM-01-3.3
+D Power Supply Encapsulated PCB 3.3V 1W
+K
+F https://www.meanwell.com/Upload/PDF/IRM-01/IRM-01-SPEC.PDF
+$ENDCMP
+#
+#End Doc Library

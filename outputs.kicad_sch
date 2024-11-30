@@ -1181,137 +1181,6 @@
 				)
 			)
 		)
-		(symbol "power:AC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "AC"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"AC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AC_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid -0.635 3.8073)
-					(end -1.27 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 0.635 2.5427)
-					(end 1.27 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 3.175)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -1456,6 +1325,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c53a13d3-3f70-49c1-9cab-5a818b98186b")
+	)
+	(no_connect
+		(at 189.23 97.79)
+		(uuid "0024fc00-6356-47da-80b6-d902e12d4401")
+	)
+	(no_connect
+		(at 147.32 68.58)
+		(uuid "2d6d3a9d-8dbe-4b3f-ab9c-3bad1203e759")
+	)
+	(no_connect
+		(at 187.96 66.04)
+		(uuid "c8b2934e-95eb-461a-8784-c6811007b239")
+	)
+	(no_connect
+		(at 148.59 100.33)
+		(uuid "d239d255-1c59-43e3-b118-e97d3ac411a1")
 	)
 	(wire
 		(pts
@@ -1815,6 +1700,28 @@
 			)
 		)
 	)
+	(global_label "230_L_Connector"
+		(shape input)
+		(at 113.03 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3150239-97a3-44c9-ba26-e9c44cd40477")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.1621 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Triac_Thyristor:BT136-600")
 		(at 104.14 62.23 90)
@@ -1914,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 194.31 69.342 90)
 			(effects
 				(font
@@ -1981,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 130.81 69.342 90)
 			(effects
 				(font
@@ -2049,7 +1956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDIP6-646BX_ONS"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
 			(at 187.96 71.12 0)
 			(effects
 				(font
@@ -2204,7 +2111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 195.58 101.092 90)
 			(effects
 				(font
@@ -2271,7 +2178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 130.81 64.262 90)
 			(effects
 				(font
@@ -2308,72 +2215,6 @@
 			(project "sterownik_rolety_Zigbee"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c3498625-d7cb-47e3-b571-b13207fdad6e"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 113.03 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9460b9af-1376-49b4-b860-969bd562552c")
-		(property "Reference" "#PWR07"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC"
-			(at 113.03 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 113.03 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "926426d3-8407-4c89-935b-a7726d648fbf")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c3498625-d7cb-47e3-b571-b13207fdad6e"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PDIP6-646BX_ONS"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -2554,7 +2395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 96.012 90)
 			(effects
 				(font
@@ -2606,7 +2447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceacb5d5-e0ab-4f0f-bf93-1836710ae014")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 212.09 58.42 0)
 			(effects
 				(font
@@ -2656,7 +2497,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c3498625-d7cb-47e3-b571-b13207fdad6e"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2755,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 101.092 90)
 			(effects
 				(font

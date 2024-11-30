@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32WBA54KGU6
+D Wireless Arm Cortex-M33 Trust Zone MCU 100 MHz with 1 Mbyte of Flash memory, Bluetooth LE 5.4, 802.15.4, Zigbee
+K
+F https://www.st.com/resource/en/datasheet/stm32wba52ce.pdf
+$ENDCMP
+#
+#End Doc Library

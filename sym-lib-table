@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DLF162500LT-5028A1")(type "KiCad")(uri "${KIPRJMOD}/KiCad/DLF162500LT-5028A1.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32WBA50KGU6")(type "KiCad")(uri "${KIPRJMOD}/KiCad/STM32WBA50KGU6.kicad_sym")(options "")(descr ""))
+)
