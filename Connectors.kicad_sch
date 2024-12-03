@@ -986,10 +986,22 @@
 		(uuid "56133bf1-f600-421a-aee8-08e23a502dfd")
 	)
 	(junction
+		(at 96.52 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a07a99b-0e57-437e-b041-60a473766c22")
+	)
+	(junction
 		(at 72.39 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1e803a7-8e98-4a1a-9c0c-268ecc0da76b")
+	)
+	(junction
+		(at 96.52 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07f286f-8a0f-4261-98a0-9357a3b06128")
 	)
 	(no_connect
 		(at 121.92 119.38)
@@ -1011,6 +1023,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 88.9) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13be3e59-fc7b-4bb5-b74d-0ef88e140e79")
+	)
+	(wire
+		(pts
 			(xy 82.55 124.46) (xy 82.55 125.73)
 		)
 		(stroke
@@ -1018,6 +1040,46 @@
 			(type default)
 		)
 		(uuid "14884516-7ef1-430c-b940-4d603b68797d")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295b9237-2fd2-4f7c-bedd-5353bb82e04d")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b15c89-8aa8-40e8-9474-059537c26cd2")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a66a7eb-4435-480e-a51e-cee0058521e6")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648ef27c-ab4a-48c0-9b89-1471e6388eed")
 	)
 	(wire
 		(pts
@@ -1068,6 +1130,16 @@
 			(type default)
 		)
 		(uuid "db7dd53b-b9a2-45a9-a826-26f99e779311")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39d8dc1-bc65-4505-99e3-c382213abc19")
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
@@ -1145,9 +1217,9 @@
 			)
 		)
 	)
-	(global_label "L_connector"
+	(global_label "N_connector"
 		(shape output)
-		(at 97.79 88.9 180)
+		(at 92.71 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1157,7 +1229,7 @@
 		)
 		(uuid "25dbdca3-d93c-4f2f-9095-1a58a37f520d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4354 88.9 0)
+			(at 78.053 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,9 +1261,9 @@
 			)
 		)
 	)
-	(global_label "Q_L_connector"
+	(global_label "Q_N_connector"
 		(shape input)
-		(at 97.79 86.36 180)
+		(at 93.98 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1201,7 +1273,7 @@
 		)
 		(uuid "4c5b8d12-6542-4220-9e4b-6e486076d2a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1373 86.36 0)
+			(at 77.0249 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,9 +1305,9 @@
 			)
 		)
 	)
-	(global_label "N_connector"
+	(global_label "L_connector"
 		(shape output)
-		(at 97.79 91.44 180)
+		(at 92.71 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1245,7 +1317,7 @@
 		)
 		(uuid "d5848fe9-1127-4e28-81f5-6df54cad4210")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.133 91.44 0)
+			(at 78.3554 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

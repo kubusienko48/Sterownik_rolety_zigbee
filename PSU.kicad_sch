@@ -447,7 +447,7 @@
 		)
 		(uuid "839992a0-07cb-42c4-a7b6-f926bfc712c3")
 	)
-	(global_label "230_N_Connector"
+	(global_label "N_connector"
 		(shape input)
 		(at 148.59 96.52 0)
 		(fields_autoplaced yes)
@@ -459,7 +459,7 @@
 		)
 		(uuid "d316c63a-c0a0-4b62-bfce-a814823c7cb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0245 96.52 0)
+			(at 163.247 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +469,7 @@
 			)
 		)
 	)
-	(global_label "230_L_Connector"
+	(global_label "L_connector"
 		(shape input)
 		(at 148.59 93.98 0)
 		(fields_autoplaced yes)
@@ -481,7 +481,7 @@
 		)
 		(uuid "d36fd351-9f9c-4521-b3e5-1efd26306901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7221 93.98 0)
+			(at 162.9446 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

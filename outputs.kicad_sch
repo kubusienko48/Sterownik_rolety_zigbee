@@ -1700,7 +1700,7 @@
 			)
 		)
 	)
-	(global_label "230_L_Connector"
+	(global_label "L_connector"
 		(shape input)
 		(at 113.03 49.53 0)
 		(fields_autoplaced yes)
@@ -1712,7 +1712,7 @@
 		)
 		(uuid "b3150239-97a3-44c9-ba26-e9c44cd40477")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.1621 49.53 0)
+			(at 127.3846 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330R"
 			(at 194.818 76.454 90)
 			(effects
 				(font
@@ -2103,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "330R"
 			(at 196.088 108.204 90)
 			(effects
 				(font
